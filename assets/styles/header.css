@@ -80,13 +80,14 @@
 .offer-wrap__title {
     font-family: var( --accent-family);
     font-weight: 500;
-    font-size: var(--font-title);
+    font-size: 50px;
     line-height: 112%;
     letter-spacing: 0.02em;
     max-width: 547px;
 }
 
 .offer-wrap_title-accent {
+    display: block;
     color: var(--color-accent);
 }
 
