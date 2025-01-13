@@ -94,13 +94,18 @@
 .offer-wrap__text {
     font-weight: 400;
     font-size: var(--font-normal);
+    max-width: 550px;
 }
 
 .header-bg {
     background: no-repeat right center url('../images/bg_photo.webp');
-    width: 749px;
+    width: 50vw;
     height: 100%;
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+@media screen and (max-wdtih: ) {
+    
 }
