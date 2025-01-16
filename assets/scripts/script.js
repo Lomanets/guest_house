@@ -1,5 +1,5 @@
 const rooms = document.querySelectorAll('.room');
-const buttonSlider = document.querySelectorAll('.rooms-description__button-item')
+const buttonSlider = document.querySelectorAll('.rooms-description__button-item');
 let countSlider = 0
 
 
@@ -16,14 +16,9 @@ buttonSlider.forEach((item) => {
 
         rooms[countSlider].classList.add('none');
 
-        if (item.classList.contains('button-left')) {
-            countSlider -= 1;
-        } else {
-            countSlider += 1;
-        }
+        if (item.classList.contains('button-left')) countSlider -= 1;
+        else countSlider += 1;
 
         rooms[countSlider].classList.remove('none');
-
-        
     });
 });

@@ -2,10 +2,6 @@
     border-bottom: 2px solid var(--color-gray);
 }
 
-.rooms-container {
-    
-}
-
 .room  {
     display: flex;
     justify-content: space-between;
@@ -101,6 +97,11 @@
     max-width: 457px;
     row-gap: var(--margin-small);
     column-gap: 30px;
+}
+
+.rooms-offer__wrap-item {
+    font-weight: 400;
+    font-size: var(--font-medium);
 }
 
 .rooms-offer__rotate {
