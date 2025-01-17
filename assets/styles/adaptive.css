@@ -1,0 +1,153 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 1024px;
+        box-sizing: border-box;
+    }
+
+    .header-bg {
+        width: 43vw;
+    }
+
+    .nav-wrap {
+        column-gap: var(--margin-default);
+    }
+
+    .rooms-description, .rooms-offer {
+        max-width: 50%;
+    }
+
+    .city-image, .rooms-offer img  {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .rooms-description img {
+        max-width: 49%;
+        height: auto;
+    }
+    .room4 .rooms-description img, .room5 .rooms-description img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    :root {
+        --font-small: 12px;
+        --font-medium: 14px;
+        --font-title: 40px;
+        --font-normal: 18px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .offer-wrap__title {
+        font-size: 45px;
+    }
+
+    .rooms-offer__rotate {
+        height: calc(100% + var(--margin-default));
+    }
+
+    .room {
+        padding-bottom: var(--margin-default);
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .nav-list__link {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+    .offer-container {
+        padding-bottom: 0px;
+        row-gap: 30px;
+        text-align: center;
+    }
+    
+    .offer-wrap {
+        align-items: center;
+    }
+
+    .header-bg {
+        height: 576px;
+        width: 100%;
+        position: static;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 873px){
+    .rule-wrap__image {
+        display: none;
+    }
+
+    .rule-wrap {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .rule-text__item {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-wrap {
+        flex-direction: column;
+
+        row-gap: var(--margin-small);
+    }
+
+    .nav-container {
+        justify-content: center;
+    }
+
+    .nav-tel {
+        display: none;
+    }
+
+    .room {
+        padding-bottom: var(--margin-default);
+    }
+
+    .room {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rooms-offer {
+        max-width: 80%;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .rooms-description__button {
+        justify-content: flex-start;
+    }
+
+    .rooms-description {
+        max-width: 100%;
+    }
+
+    .rooms-offer__rotate {
+        border: none;
+    }
+
+
+}
+
+@media screen and (max-width: 667px) {
+    .footer-nav__list  {
+        flex-direction: column;
+        align-items: center;
+        row-gap: var(--margin-small);
+    }
+}

@@ -1,4 +1,63 @@
-@import url('');
-
 @import url('./normalize.css');
 @import url('./fonts.css');
+@import url('./variables.css');
+
+@import url('./header.css');
+@import url('./about.css');
+@import url('./city.css');
+@import url('./rooms.css');
+@import url('./rule.css');
+@import url('./footer.css');
+@import url('./adaptive.css');
+
+* {
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--main-family);
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--color-bg);
+    color: var(--color-black)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black)
+}
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}

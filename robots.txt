@@ -1,2 +1,2 @@
 User-agent *
-Sitemap Указать
+Sitemap my-gardenhouse.ru
