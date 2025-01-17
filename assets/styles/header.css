@@ -26,8 +26,8 @@
 
 .nav-list__link {
     display: inline-block;
-    font-weight: 400;
-    font-size: var(--font-small);
+    font-weight: 500;
+    font-size: var(--font-medium);
     transform: translateY(0px);
     transition: transform 0.3s;
 }
@@ -99,7 +99,7 @@
 
 .header-bg {
     background: no-repeat right center url('../images/bg_photo.webp');
-    width: 50vw;
+    width: 47vw;
     height: 100%;
     position: absolute;
     top: 0px;

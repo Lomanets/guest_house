@@ -85,7 +85,8 @@
 
 .footer-nav {
     margin-top: 32px;
-    border: 2px solid var(--color-gray);
+    border-top: 2px solid var(--color-gray);
+    border-bottom: 2px solid var(--color-gray);
     padding-top: 24px;
     padding-bottom: 24px;
 }

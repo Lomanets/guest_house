@@ -1,2 +1,2 @@
 User-agent *
-Sitemap https://my-gardenhouse.ru/
+Sitemap my-gardenhouse.ru

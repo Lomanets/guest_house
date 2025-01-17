@@ -10,6 +10,10 @@
         width: 43vw;
     }
 
+    .nav-wrap {
+        column-gap: var(--margin-default);
+    }
+
     .rooms-description, .rooms-offer {
         max-width: 50%;
     }
@@ -42,7 +46,6 @@
         max-width: 100%;
     }
 
-
     .offer-wrap__title {
         font-size: 45px;
     }
@@ -57,6 +60,12 @@
 }
 
 @media screen and (max-width: 930px) {
+    .nav-list__link {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
     .offer-container {
         padding-bottom: 0px;
         row-gap: 30px;
