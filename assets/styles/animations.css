@@ -1,0 +1,11 @@
+@keyframes fade {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+.city-image {
+    max-width: 100%;
+    animation: fade 6s linear infinite;
+    animation-delay: 3s;
+}
