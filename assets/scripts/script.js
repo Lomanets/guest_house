@@ -1,6 +1,6 @@
 const rooms = document.querySelectorAll('.room');
 const buttonSlider = document.querySelectorAll('.rooms-description__button-item');
-let countSlider = 0
+let countSlider = 0;
 
 
 rooms.forEach((item) => {
@@ -22,3 +22,17 @@ buttonSlider.forEach((item) => {
         rooms[countSlider].classList.remove('none');
     });
 });
+
+
+const imageSlider = ['slider0.webp', 'slider1.webp', 'slider2.webp'];
+const imageCity = document.querySelector('.city-image');
+let countSliderCity = 0;
+
+
+let intervalSlider = setInterval(() => {
+    imageCity.src = `./assets/images/slider/${imageSlider[countSliderCity]}`;
+    countSliderCity += 1;
+    if(countSliderCity >= imageSlider.length) {
+        countSliderCity = 0;
+    }
+}, 6000);
